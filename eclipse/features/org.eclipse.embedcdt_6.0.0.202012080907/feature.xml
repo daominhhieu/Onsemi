@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2012, 2020 Liviu Ionescu and others.
+  This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License 2.0
+  which accompanies this distribution, and is available at
+  https://www.eclipse.org/legal/epl-2.0/
+  
+  SPDX-License-Identifier: EPL-2.0
+
+  Contributors:
+    Liviu Ionescu
+    Alexander Fedorov (ArSysOp)
+-->
+<feature
+      id="org.eclipse.embedcdt"
+      label="%featureName"
+      version="6.0.0.202012080907"
+      provider-name="%providerName"
+      plugin="org.eclipse.embedcdt">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <plugin
+         id="org.eclipse.embedcdt"
+         download-size="14"
+         install-size="19"
+         version="6.0.0.202012080907"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.embedcdt.core"
+         download-size="2698"
+         install-size="3286"
+         version="6.0.0.202012080907"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.embedcdt.ui"
+         download-size="42"
+         install-size="71"
+         version="6.0.0.202012080907"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

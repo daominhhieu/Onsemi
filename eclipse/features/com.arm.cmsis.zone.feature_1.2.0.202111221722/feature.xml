@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.arm.cmsis.zone.feature"
+      label="%featureName"
+      version="1.2.0.202111221722"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="com.arm.cmsis.pack.feature"
+         version="2.6.1.202111221722"/>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.core.expressions"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="com.arm.cmsis.pack.common" version="2.6.1" match="greaterOrEqual"/>
+      <import plugin="com.arm.cmsis.pack.data" version="2.6.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.navigator"/>
+      <import plugin="com.arm.cmsis.pack" version="2.6.1" match="greaterOrEqual"/>
+      <import plugin="com.arm.cmsis.pack.ui" version="2.6.1" match="greaterOrEqual"/>
+      <import plugin="com.arm.cmsis.pack.project" version="2.6.1" match="greaterOrEqual"/>
+      <import plugin="com.arm.tpip.freemarker" version="2.3.29" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="com.arm.cmsis.zone"
+         download-size="116"
+         install-size="231"
+         version="1.2.0.202111221722"
+         unpack="false"/>
+
+   <plugin
+         id="com.arm.cmsis.zone.ui"
+         download-size="168"
+         install-size="337"
+         version="1.2.0.202111221722"
+         unpack="false"/>
+
+</feature>

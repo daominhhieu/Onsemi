@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.onsemi.swm.features.common"
+      label="Common IDE Feature"
+      version="1.2.79.202112171708"
+      provider-name="onsemi">
+
+    <description>
+      This feature is a collection of configurations that are common to all packages.
+    </description>
+
+   <copyright url="http://www.example.com/copyright">
+    /* ------------------------------------------------------------------------
+     * Copyright (c) 2021 onsemi.
+     * This is the property of onsemi and may not be redistributed
+     * in any form without prior written permission from onsemi.
+     * -------------------------------------------------------------------------
+     */
+   </copyright>
+
+   <license url="http://www.example.com/license">
+    This feature and all associated plugins are proprietary to
+    onsemi and may only be used pursuant to the terms and conditions of a
+    written license agreement with onsemi.
+   </license>
+
+   <plugin
+         id="com.onsemi.swm.plugins.common"
+         download-size="134"
+         install-size="401"
+         version="1.2.79.202112171708"
+         unpack="false"/>
+
+</feature>

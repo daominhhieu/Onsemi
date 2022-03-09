@@ -1,0 +1,12 @@
+!SESSION 2021-12-02 15:31:51.323 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -application org.eclipse.equinox.p2.director -repository jar:file:Z:vendor-arm/plugins/CmsisPackPlugin2.6.1_custom.zip!/ -installIUs com.arm.cmsis.zone.feature.feature.group
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -application org.eclipse.equinox.p2.director -repository jar:file:Z:vendor-arm/plugins/CmsisPackPlugin2.6.1_custom.zip!/ -installIUs com.arm.cmsis.zone.feature.feature.group
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-12-02 15:31:57.332
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-12-02 15:31:57.332
+!MESSAGE Add request for CMSIS-Zone Eclipse plug-ins 1.2.0.202111221722 (com.arm.cmsis.zone.feature.feature.group 1.2.0.202111221722) is satisfiable

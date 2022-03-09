@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2012, 2017 Liviu Ionescu.
+  This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License 2.0
+  which accompanies this distribution, and is available at
+  https://www.eclipse.org/legal/epl-2.0/
+  
+  SPDX-License-Identifier: EPL-2.0
+
+  Contributors:
+    Liviu Ionescu
+-->
+
+<feature
+      id="org.eclipse.embedcdt.managedbuild.cross.arm"
+      label="%featureName"
+      version="6.0.0.202012080907"
+      provider-name="%providerName"
+      plugin="org.eclipse.embedcdt.managedbuild.cross.arm">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <plugin
+         id="org.eclipse.embedcdt.managedbuild.cross.arm"
+         download-size="14"
+         install-size="19"
+         version="6.0.0.202012080907"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.embedcdt.managedbuild.cross.arm.core"
+         download-size="64"
+         install-size="273"
+         version="3.0.0.202012080907"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.embedcdt.managedbuild.cross.arm.ui"
+         download-size="54"
+         install-size="104"
+         version="3.0.0.202012080907"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.embedcdt.packs.core"
+         download-size="179"
+         install-size="345"
+         version="3.0.0.202012080907"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.embedcdt.core"
+         download-size="2698"
+         install-size="3286"
+         version="6.0.0.202012080907"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.embedcdt.debug.core"
+         download-size="14"
+         install-size="18"
+         version="2.0.0.202012080907"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.embedcdt.managedbuild.cross.core"
+         download-size="50"
+         install-size="133"
+         version="2.0.0.202012080907"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.embedcdt.managedbuild.cross.ui"
+         download-size="20"
+         install-size="32"
+         version="2.0.0.202012080907"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.embedcdt.managedbuild.packs.ui"
+         download-size="55"
+         install-size="97"
+         version="2.0.0.202012080907"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

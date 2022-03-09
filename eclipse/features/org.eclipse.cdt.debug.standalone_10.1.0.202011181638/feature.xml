@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.cdt.debug.standalone"
+      label="%featureName"
+      version="10.1.0.202011181638"
+      provider-name="%providerName"
+      plugin="org.eclipse.cdt.debug.application">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.cdt.debug.application"
+         download-size="349"
+         install-size="829"
+         version="1.2.100.202011181638"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.debug.application.doc"
+         download-size="6735"
+         install-size="7912"
+         version="1.1.700.202011181638"
+         unpack="false"/>
+
+</feature>

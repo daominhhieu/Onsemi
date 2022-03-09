@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2012, 2017 Liviu Ionescu.
+  This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License 2.0
+  which accompanies this distribution, and is available at
+  https://www.eclipse.org/legal/epl-2.0/
+  
+  SPDX-License-Identifier: EPL-2.0
+
+  Contributors:
+    Liviu Ionescu
+-->
+<feature
+      id="org.eclipse.embedcdt.debug.gdbjtag.jlink"
+      label="%featureName"
+      version="6.0.0.202012080907"
+      provider-name="%providerName"
+      plugin="org.eclipse.embedcdt.debug.gdbjtag.jlink">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <requires>
+      <import feature="org.eclipse.embedcdt.debug.gdbjtag" version="6.0.0.qualifier"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.embedcdt.debug.gdbjtag.jlink"
+         download-size="15"
+         install-size="20"
+         version="6.0.0.202012080907"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.embedcdt.debug.gdbjtag.jlink.core"
+         download-size="90"
+         install-size="192"
+         version="5.0.0.202012080907"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.embedcdt.debug.gdbjtag.jlink.ui"
+         download-size="120"
+         install-size="226"
+         version="5.0.0.202012080907"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

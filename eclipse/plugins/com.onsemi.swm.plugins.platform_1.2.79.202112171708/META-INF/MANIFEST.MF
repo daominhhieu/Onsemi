@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.0
+Build-Jdk-Spec: 11
+Bundle-ManifestVersion: 2
+Bundle-Name: IDE Platform
+Bundle-SymbolicName: com.onsemi.swm.plugins.platform;singleton:=true
+Bundle-Version: 1.2.79.202112171708
+Bundle-Vendor: onsemi
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.eclipse.platform,org.eclipse.equinox.app
+Eclipse-BundleShape: dir
+Bundle-Localization: plugin
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="com.onsemi.swm.plugins.common.ShowPerspectiveHandler"
+            description="%packs.showPerspective.description"
+            id="com.onsemi.swm.plugins.common.showPerspectiveCommand"
+            name="%packs.showPerspective.label">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+			allPopups="false"
+			locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
+			<toolbar id="com.onsemi.swm.plugins.common.main.showPerspective">
+				<command
+					commandId="com.onsemi.swm.plugins.common.showPerspectiveCommand"
+					icon="icons/packInstaller.gif"
+					style="push"
+					tooltip="%menus.toolbar.showPerspective.tooltip">
+				</command>
+			</toolbar>
+		</menuContribution>
+   </extension>
+
+</plugin>

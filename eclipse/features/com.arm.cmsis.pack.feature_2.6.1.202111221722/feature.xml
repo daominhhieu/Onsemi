@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.arm.cmsis.pack.feature"
+      label="%featureName"
+      version="2.6.1.202111221722"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.jface"/>
+      <import plugin="org.eclipse.jface.text" version="3.9.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.osgi"/>
+      <import plugin="org.eclipse.core.resources" version="3.9.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.commands"/>
+      <import plugin="org.eclipse.swt"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.workbench"/>
+      <import plugin="org.eclipse.ui.ide" version="3.10.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.console" version="3.5.300" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.ui.views"/>
+      <import plugin="org.eclipse.cdt.core"/>
+      <import plugin="org.eclipse.cdt.ui"/>
+      <import plugin="org.eclipse.cdt.managedbuilder.core"/>
+      <import plugin="org.eclipse.core.variables"/>
+      <import plugin="org.eclipse.core.expressions"/>
+      <import plugin="org.eclipse.core.jobs"/>
+      <import plugin="org.eclipse.cdt.managedbuilder.ui"/>
+      <import plugin="org.eclipse.compare"/>
+      <import plugin="org.eclipse.ui.navigator"/>
+      <import plugin="org.eclipse.ltk.core.refactoring"/>
+      <import plugin="org.eclipse.ui.cheatsheets"/>
+      <import plugin="org.eclipse.xtext"/>
+      <import plugin="org.eclipse.xtext.xbase"/>
+      <import plugin="org.eclipse.equinox.common" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.ecore"/>
+      <import plugin="org.eclipse.xtext.xbase.lib"/>
+      <import plugin="org.eclipse.xtext.util"/>
+      <import plugin="org.eclipse.xtend.lib"/>
+      <import plugin="org.eclipse.emf.common"/>
+      <import plugin="org.antlr.runtime" version="3.2.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.log4j"/>
+   </requires>
+
+   <plugin
+         id="com.arm.cmsis.pack"
+         download-size="156"
+         install-size="327"
+         version="2.6.1.202111221722"
+         unpack="false"/>
+
+   <plugin
+         id="com.arm.cmsis.pack.ui"
+         download-size="290"
+         install-size="517"
+         version="2.6.1.202111221722"
+         unpack="false"/>
+
+   <plugin
+         id="com.arm.cmsis.pack.build.settings"
+         download-size="21"
+         install-size="48"
+         version="2.6.1.202111221722"
+         unpack="false"/>
+
+   <plugin
+         id="com.arm.cmsis.pack.common"
+         download-size="113"
+         install-size="215"
+         version="2.6.1.202111221722"
+         unpack="false"/>
+
+   <plugin
+         id="com.arm.cmsis.pack.project"
+         download-size="175"
+         install-size="374"
+         version="2.6.1.202111221722"
+         unpack="false"/>
+
+   <plugin
+         id="com.arm.cmsis.pack.build.armgcc"
+         download-size="6"
+         install-size="10"
+         version="2.6.1.202111221722"
+         unpack="false"/>
+
+   <plugin
+         id="com.arm.cmsis.pack.build.gnuarmeclipse"
+         download-size="6"
+         install-size="9"
+         version="2.6.1.202111221722"
+         unpack="false"/>
+
+   <plugin
+         id="com.arm.cmsis.config"
+         download-size="69"
+         install-size="131"
+         version="2.6.1.202111221722"
+         unpack="false"/>
+
+   <plugin
+         id="com.arm.cmsis.pack.installer"
+         download-size="49"
+         install-size="98"
+         version="2.6.1.202111221722"
+         unpack="false"/>
+
+   <plugin
+         id="com.arm.cmsis.pack.installer.ui"
+         download-size="130"
+         install-size="251"
+         version="2.6.1.202111221722"
+         unpack="false"/>
+
+   <plugin
+         id="com.arm.cmsis.help"
+         download-size="1264"
+         install-size="1356"
+         version="2.6.1.202111221722"
+         unpack="false"/>
+
+   <plugin
+         id="com.arm.cmsis.pack.refclient"
+         download-size="52"
+         install-size="98"
+         version="2.6.1.202111221722"
+         unpack="false"/>
+
+   <plugin
+         id="com.arm.cmsis.pack.build.armcc"
+         download-size="16"
+         install-size="31"
+         version="2.6.1.202111221722"
+         unpack="false"/>
+
+   <plugin
+         id="com.arm.cmsis.pack.data"
+         download-size="143"
+         install-size="270"
+         version="2.6.1.202111221722"
+         unpack="false"/>
+
+   <plugin
+         id="com.arm.cmsis.pack.dsq.engine"
+         download-size="523"
+         install-size="1361"
+         version="2.6.1.202111221722"
+         unpack="false"/>
+
+   <plugin
+         id="com.arm.tpip.freemarker"
+         download-size="1398"
+         install-size="1574"
+         version="2.3.29.202111221722"/>
+
+</feature>

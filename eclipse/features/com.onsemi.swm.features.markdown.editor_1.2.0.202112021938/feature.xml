@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.onsemi.swm.features.markdown.editor"
+      label="Markdown Editor"
+      version="1.2.0.202112021938"
+      provider-name="onsemi">
+
+   <description>
+      Markdown Editor
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      /* ------------------------------------------------------------------------
+* Copyright (c) 2021 onsemi.
+* This is the property of onsemi and may not be redistributed
+* in any form without prior written permission from onsemi.
+* -------------------------------------------------------------------------
+*/
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      This feature and all associated plugins are proprietary to
+onsemi and may only be used pursuant to the terms and conditions of a
+written license agreement with onsemi.
+   </license>
+
+   <plugin
+         id="com.onsemi.swm.plugins.markdown.editor"
+         download-size="211"
+         install-size="269"
+         version="1.2.0.202112021938"
+         unpack="false"/>
+   <plugin
+         id="org.brainwy.liclipsetext.editor"
+         download-size="3018"
+         install-size="5543"
+         version="2.3.0.202104291051"
+         unpack="false"/>
+
+   <plugin
+         id="org.brainwy.liclipsetext.shared_ui"
+         download-size="403"
+         install-size="741"
+         version="2.3.0.202104291051"
+         unpack="false"/>
+   <plugin
+         id="org.brainwy.liclipsetext.shared_core"
+         download-size="550"
+         install-size="894"
+         version="2.3.0.202104291051"
+         unpack="false"/>
+
+
+</feature>

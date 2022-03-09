@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2012, 2017 Liviu Ionescu.
+  This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License 2.0
+  which accompanies this distribution, and is available at
+  https://www.eclipse.org/legal/epl-2.0/
+  
+  SPDX-License-Identifier: EPL-2.0
+
+  Contributors:
+    Liviu Ionescu
+-->
+
+<feature
+      id="org.eclipse.embedcdt.debug.gdbjtag"
+      label="%featureName"
+      version="6.0.0.202012080907"
+      provider-name="%providerName"
+      plugin="org.eclipse.embedcdt.debug.gdbjtag">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <plugin
+         id="org.eclipse.embedcdt.core"
+         download-size="2698"
+         install-size="3286"
+         version="6.0.0.202012080907"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.embedcdt.debug.core"
+         download-size="14"
+         install-size="18"
+         version="2.0.0.202012080907"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.embedcdt.debug.gdbjtag"
+         download-size="14"
+         install-size="20"
+         version="6.0.0.202012080907"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.embedcdt.debug.gdbjtag.core"
+         download-size="266"
+         install-size="568"
+         version="5.0.0.202012080907"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.embedcdt.debug.gdbjtag.ui"
+         download-size="126"
+         install-size="228"
+         version="5.0.0.202012080907"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.embedcdt.debug.gdbjtag.restart.ui"
+         download-size="19"
+         install-size="26"
+         version="2.0.0.202012080907"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

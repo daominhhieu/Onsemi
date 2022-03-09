@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.0
+Build-Jdk-Spec: 11
+Bundle-ManifestVersion: 2
+Bundle-Name: Common IDE Bundle
+Bundle-SymbolicName: com.onsemi.swm.plugins.common;singleton:=true
+Bundle-Version: 1.2.79.202112171708
+Bundle-Vendor: onsemi
+Automatic-Module-Name: com.onsemi.swm.plugins.common
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.eclipse.platform,org.eclipse.equinox.app,org.eclipse
+ .ui,org.eclipse.core.commands,org.eclipse.core.runtime,org.eclipse.ui.w
+ orkbench
+Bundle-Localization: plugin
+Eclipse-BundleShape: dir
+

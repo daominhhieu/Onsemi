@@ -1,0 +1,12 @@
+!SESSION 2021-12-02 15:31:33.874 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -application org.eclipse.equinox.p2.director -repository jar:file:Z:common_plugins.zip!/ -installIUs com.onsemi.swm.features.markdown.editor.feature.group
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -application org.eclipse.equinox.p2.director -repository jar:file:Z:common_plugins.zip!/ -installIUs com.onsemi.swm.features.markdown.editor.feature.group
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2021-12-02 15:31:38.815
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2021-12-02 15:31:38.815
+!MESSAGE Add request for Markdown Editor 1.2.0.202112021938 (com.onsemi.swm.features.markdown.editor.feature.group 1.2.0.202112021938) is satisfiable
